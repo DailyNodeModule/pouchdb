@@ -77,7 +77,7 @@ PouchDB.plugin(require('pouchdb-adapter-memory'));
     charles4.notes = 'The Emperor doted on his beloved Prague.'
 
     // And the `.put` function can be used to update existing documents.
-    // The `_id` property on the document is a unique identifier.
+    // The `_id` property on the document is the unique identifier used to match up the records.
     await db.put(charles4);
 
     const updatedDoc = await db.get(charles4._id);
