@@ -1,0 +1,1 @@
+A sample application that explores the features of PouchDB.

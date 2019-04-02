@@ -1,0 +1,20 @@
+{
+  "name": "@dailynodemodule/pouchdb",
+  "version": "1.0.0",
+  "description": "This project is a sample project for pouchdb",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dailynodemodule/pouchdb"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Zachary Boyd <zachary@dailynodemodule.com>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "pouchdb": "^7.0.0",
+    "pouchdb-adapter-memory": "^7.0.0",
+    "pouchdb-find": "^7.0.0"
+  }
+}
